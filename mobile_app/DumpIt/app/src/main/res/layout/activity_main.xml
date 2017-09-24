@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.guddu.pradeep.kartik.dumpit.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:theme="@style/textview_style">
+
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hi" />
+
+        <TextView
+            android:id="@+id/rewardPointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="You have 0 points" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/raiseRequestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:text="Schedule a pickup"
+        android:theme="@style/label_style" />
+
+    <Button
+        android:id="@+id/showUpcomingPickupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:text="Show Upcoming Pickups"
+        android:theme="@style/label_style" />
+
+    <Button
+        android:id="@+id/pastPickupsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:text="show Past Pickups"
+        android:theme="@style/label_style" />
+
+    <Button
+        android:id="@+id/earnRewardsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:text="Earn some rewards"
+        android:theme="@style/label_style" />
+</LinearLayout>
